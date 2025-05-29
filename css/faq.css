@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 header{
@@ -54,6 +55,8 @@ nav ul li a{
 
 footer {
     margin-top: 30px;
+    background-color: #D9D9D9;
+    padding: 10px;
 }
 
 footer li {
@@ -89,16 +92,30 @@ section h1 {
     margin-bottom: 20px;
     padding: 30px 20px;
 }
+
+.respostas{
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
   
 section li {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+
 }
   
 .perguntas {
     width: 100%;
     padding: 15px;
     font-size: 18px;
+    background-color: #f9f9f9;
+}
+
+.linha {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px -30px; 
+  border: none;
 }
 
 
