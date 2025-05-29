@@ -3,7 +3,110 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    background-color: #F5F7FA;
+    color: #333333;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 2px 5px (0, 0, 0, 0.1);
+    border-bottom: 1px solid black;
+}
+
+header h1{
+    font-size:50px;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover{
+    color: #D9D9D9; 
+    background-color:#333333;
+    border-radius: 50px;
+}
+
+nav ul li a{
+    padding: 20px 20px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer li {
+    background-color: #D9D9D9;
+    text-align: center;
+    list-style: none;
+}
+
+#btnTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#btnTopo:hover {
+    background-color: #182848;
+    transform: scale(1.05);
+}
+
+section{
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+.texto-section{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    padding: 30px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.texto-section h2{
+    background-color: transparent;
+    margin-top: 0;
+    color: white;
+}
+
+
 .button{
     display: inline-block;
     background-color:blue;
@@ -13,74 +116,38 @@
     border-radius: 5px;
 }
 .button:hover{
-    background-color: blue;
+    background-color: #182848;
+    transform: scale(1.05);
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    color: gray;
+
+article {
+    overflow: hidden; 
     padding: 20px;
-    align-items: center;
-    box-shadow: 0 2px 5px (0, 0, 0, 0.1);
 }
-nav{
-    display: flex;
-    align-items: center;
+
+article p, article ul {
+    font-size: 20px; 
 }
-nav ul{
-    display: flex;
-    list-style: none;
-}
-nav a{
-    text-decoration: none;
-    color: gray;
-}
-nav a:hover{
-    color: darkgrey;
-}
-nav ul li a{
-    padding: 20px 20px;
-}
-.hero{
-    position: relative;
-    overflow: hidden;
-    color: white;
-    text-align: center;
-}
-.hero img{
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    max-height: 600px;
-}
-.hero-texto{
-    background-color: rgba(0, 0, 0, 0.5) ;
-    padding: 30px;
-    border-radius: 10px;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-}
-.hero-texto h2{
-    margin-top: 0
-}
-article{
-    display: flex;
-    margin: 20px;
-    justify-content: space-between;
-}
-.texto{
-    width: 75%;
+
+.texto1 {
     text-align: justify;
 }
-article img{
-    width: 300px;
-    height: auto;  
+
+article img {
+    float: right;
+    width: 600px;
+    height: 350px;
+    margin-left: 30px;
+    border-radius: 10px;
 }
-article ul li{
-    margin-left: 20px;
+article ul li {
+    margin-left: 25px;
 }
+
+article h1 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
