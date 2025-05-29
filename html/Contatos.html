@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyGuard</title>
+    <link rel="stylesheet" href="../css/contato.css">
+    <script src="../js/contato.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+        <h1 id="topo">SkyGuard</h1>
+        <nav>
+            <ul>
+                <li><h3><a href="../index.html">Página Inicial</a></h3></li>
+                <li><h3><a href="../html/Parcerias_e_Apoio.html">Parcerias e Apoio</a></h3></li>
+                <li><h3><a href="../html/FAQ.html">FAQ</a></h3></li>
+                <li><h3><a href="../html/Contatos.html">Contato</a></h3></li>
+                <li><h3><a href="../html/Integrantes.html">Integrantes</a></h3></li>
+            </ul>
+        </nav>
+        </header>
+            <section>
+                <h1>Contato</h1>
+                        <div class="container">
+            <form class="contatoform" onsubmit="return enviado()">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required maxlength="50">
+
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg" name="msg" required placeholder="Digite aqui sua mensagem..."></textarea>
+
+
+                    <button type="submit" id="enviarbtn">Enviar</button>
+                    <button type="submit" id="cancelarbtn" onclick="return cancelado()">Cancelar</button>
+
+                </form>
+            </div>
+            </section>
+    </main>
+</body>
+<footer>
+    <div class="contato">
+    <ul>
+        <li>© 2025 SkyGuard – Todos os direitos reservados</li>
+        <li>Email: skyguard@gmail.com.br.</li>
+        <li>Telefone: (11) 97359-23229</li>
+        <li>Endereço: Avenida Paulista, 1100 – São Paulo, SP – Brasil</li>
+        <li>Tecnologia, resgate e esperança</li>
+    </ul>
+    </div>
+</footer>
+</html>
