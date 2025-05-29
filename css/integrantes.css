@@ -71,3 +71,40 @@ main{
 
 /* -------------------- */
 
+.integrantes {
+    margin: 30px;
+    text-align: center;
+}
+.integrantes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+.integrantes-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+}
+.integrantes-item a{
+    text-decoration: none;
+}
+
+.integrantes p, .integrantes a{
+    background-color: #f9f9f9;
+
+}
+
+.integrantes-item img {
+    width: 40%;
+    height: 60%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.integrantes-item h4 {
+    margin-top: 0;
+    font-size: larger;
+    background-color: #f9f9f9;
+}
