@@ -78,7 +78,7 @@ main{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: white;
+    background-color: #f9f9f9;
     text-align: center;
     margin: auto;
 }
@@ -87,7 +87,7 @@ main{
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: bold;
-    background-color: white;
+    background-color: #f9f9f9;
 
 }
 
