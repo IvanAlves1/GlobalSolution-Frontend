@@ -14,17 +14,28 @@ body{
     flex-direction: column;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center; 
     padding: 20px;
-    align-items: center;
     border-bottom: 1px solid black;
 }
 
-header h1{
-    font-size:50px;
-    height: 50px;
+header h1 {
+    margin: 0; /* Remove margem padrão do h1 */
+    font-size: 28px;
+    color: #333;
+}
+
+header img{
+    height: 60px;
+}
+
+.imgtitulo {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
 }
 
 nav{
@@ -32,9 +43,11 @@ nav{
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav a{
@@ -48,8 +61,10 @@ nav a:hover{
     border-radius: 50px;
 }
 
-nav ul li a{
-    padding: 20px 20px;
+nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: gray;
 }
 
 footer {
@@ -136,25 +151,27 @@ section img{
 
 
 article {
-    overflow: hidden; 
+    overflow: hidden;
     padding: 20px;
 }
 
 article p, article ul {
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .texto1 {
     text-align: justify;
 }
 
+
 article img {
-    float: right;
+    float: right; 
     width: 600px;
     height: 350px;
     margin-left: 30px;
     border-radius: 10px;
 }
+
 article ul li {
     margin-left: 25px;
 }
@@ -181,26 +198,44 @@ article h1 {
         padding: 10px 15px;
     }
 
+    article img {
+        float: none; 
+        width: 100%; 
+        height: auto; 
+        margin: 20px auto; 
+        display: block; 
+    }
+    .texto1 {
+        text-align: left;
+    }
 }
 
-@media screen and (min-width: 600px) {
-    header {
- 
-        align-items: flex-start;
+@media screen and (min-width: 601px) and (max-width: 802px) {
+    article img {
+        float: none; 
+        width: 90%; 
+        height: auto; 
+        margin: 20px auto; 
+        display: block; 
     }
-    header h1 {
-        font-size: 36px;
-        margin-bottom: 10px;
+    .texto1 {
+        text-align: justify; 
     }
-    nav ul li a {
+}
+
+
+@media screen and (min-width: 803px) {
+    article img {
+        float: right;
+        width: 600px; 
+        height: 350px;
+        margin-left: 30px;
         display: block;
-        padding: 10px 15px;
     }
 }
 
 @media (min-width: 768px) {
     header {
- 
         align-items: flex-start;
     }
     header h1 {
@@ -219,7 +254,7 @@ article h1 {
 @media (min-width: 992px) {
     body {
         font-size: 17px;
-  }
+    }
 }
 
 @media (min-width: 1300px) {
