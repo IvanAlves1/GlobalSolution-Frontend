@@ -36,4 +36,4 @@ Integrantes:
 - Ivan Alves T Silva – RM: 563317
 - Pedro Henrique de Freitas e Brandão – RM: 563644
   
-- Endereço do Repositório no GitHub https://github.com/IvanAlves1/GlobalSolution-Frontend
+Endereço do Repositório no GitHub https://github.com/IvanAlves1/GlobalSolution-Frontend
