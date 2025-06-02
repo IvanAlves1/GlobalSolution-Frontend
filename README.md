@@ -4,7 +4,7 @@ Projeto Frontend - SkyGuard
 
 Objetivo do projeto:
 
-Desenvolver uma solução tecnológica utilizando drones semi-autônomos equipados com câmeras térmicas e sensores para localizar vítimas em enchentes e enviar suas coordenadas via GPS para equipes de resgate.
+Desenvolver uma solução tecnológica baseada em drones semi-autônomos, equipados com câmeras térmicas e sensores, capaz de localizar vítimas em áreas afetadas por enchentes e enviar suas coordenadas geográficas em tempo real para equipes de resgate, facilitando uma resposta rápida e eficiente.
 
 
 
@@ -33,7 +33,7 @@ Tecnologia Utilizada:
 
 Integrantes:
 
-- Ivan Alves T Silva – RM: 563317
+- Ivan Alves Toledo Silva – RM: 563317
 - Pedro Henrique de Freitas e Brandão – RM: 563644
   
 Endereço do Repositório no GitHub https://github.com/IvanAlves1/GlobalSolution-Frontend
